@@ -23,7 +23,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "gd32f427v_usart.h"
-#include "iap.h"
+#include "iap_flash_operation.h"
 #include "common.h"
 #include "ymodem.h"
 #include "string.h"
@@ -285,7 +285,7 @@ COM_StatusTypeDef Ymodem_Receive ( uint32_t *p_size )
                       result = COM_LIMIT;
                     }
                     /* erase user application area */
-                    fmc_erase_sector_by_address(APPLICATION_ADDRESS);
+                    iap_flash_erase(APPLICATION_ADDRESS, APP_FLASH_SIZE);
                     *p_size = filesize;
 
                     Serial_PutByte(ACK);

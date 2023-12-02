@@ -410,11 +410,6 @@
               <FilePath>..\APP\common.c</FilePath>
             </File>
             <File>
-              <FileName>iap.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\APP\iap.c</FilePath>
-            </File>
-            <File>
               <FileName>menu.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\APP\menu.c</FilePath>
@@ -425,9 +420,9 @@
               <FilePath>..\APP\ymodem.c</FilePath>
             </File>
             <File>
-              <FileName>flash_operation.c</FileName>
+              <FileName>iap_flash_operation.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\APP\flash_operation.c</FilePath>
+              <FilePath>..\APP\iap_flash_operation.c</FilePath>
             </File>
           </Files>
         </Group>

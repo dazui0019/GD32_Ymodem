@@ -20,7 +20,7 @@
 #define __MENU_H
 
 /* Includes ------------------------------------------------------------------*/
-#include "iap.h"
+#include "iap_flash_operation.h"
 #include "ymodem.h"
 
 /* Imported variables --------------------------------------------------------*/

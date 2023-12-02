@@ -20,7 +20,7 @@ int main(void)
     
     common_init();
     init_print(USART_1, 115200); // debug
-    printf("into Bootloader\n");
+    printf("into Bootloader\n"); // debug
     Main_Menu();
     while(1) {
         gd_eval_led_toggle(LED2);

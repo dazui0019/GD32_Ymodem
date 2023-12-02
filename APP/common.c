@@ -22,7 +22,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "common.h"
-#include "iap.h"
+#include "iap_flash_operation.h"
 #include "gd32f427v_usart.h"
 
 /* Private typedef -----------------------------------------------------------*/
@@ -162,6 +162,7 @@ void Serial_PutByte( uint8_t ch )
     while(RESET == usart_flag_get(IAP_USART, USART_FLAG_TBE));
 }
 
+// ¿ªÆôIAP´®¿Ú
 void common_init(void)
 {
     if(IAP_USART == USART0)

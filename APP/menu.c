@@ -30,7 +30,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "gd32f4xx.h"
 #include "main.h"
-#include "iap.h"
+#include "iap_flash_operation.h"
 #include "menu.h"
 #include "printf.h"
 #include "gd32f427v_usart.h"
